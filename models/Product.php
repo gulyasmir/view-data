@@ -45,7 +45,7 @@ class Product extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['code', 'weight', 'quantity_msk', 'quantity_piter', 'quantity_camara', 'quantity_caratov', 'quantity_kazan', 'quantity_novosib', 'quantity_chelyabinsk', 'quantity_dl_chelyabinsk', 'price_msk', 'price_piter', 'price_camara', 'price_caratov', 'price_kazan', 'price_novosib', 'price_chelyabinsk', 'price_dl_chelyabinsk', 'usage_product', 'name'], 'required'],
+            [['code', 'weight', 'quantity_msk', 'quantity_piter', 'quantity_camara', 'quantity_caratov', 'quantity_kazan', 'quantity_novosib', 'quantity_chelyabinsk', 'quantity_dl_chelyabinsk', 'price_msk', 'price_piter', 'price_camara', 'price_caratov', 'price_kazan', 'price_novosib', 'price_chelyabinsk', 'price_dl_chelyabinsk',  'name'], 'required'],
             [['weight', 'quantity_msk', 'quantity_piter', 'quantity_camara', 'quantity_caratov', 'quantity_kazan', 'quantity_novosib', 'quantity_chelyabinsk', 'quantity_dl_chelyabinsk'], 'integer'],
             [['usage_product'], 'string'],
             [['code', 'price_msk', 'price_piter', 'price_camara', 'price_caratov', 'price_kazan', 'price_novosib', 'price_chelyabinsk', 'price_dl_chelyabinsk', 'name'], 'string', 'max' => 255],
