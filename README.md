@@ -15,14 +15,17 @@
 git clone  https://github.com/gulyasmir/view-data.git
 
 
-Если git не установлен - сначала нужно установить git. Как это сделать подробно написано тут - https://git-scm.com/book/ru/v2/Введение-Установка-Git
+Если git не установлен - сначала нужно установить git. Как это сделать подробно написано   <a href="https://git-scm.com/book/ru/v2/Введение-Установка-Git" target="_blank"> тут
+    </a>
 
 #2. Выполнить в консоли команду
 
 composer install
 
 
-Если Composer не установлен его так же надо предварительно установить.  Как это сделать написано тут - https://getcomposer.org/
+Если Composer не установлен его так же надо предварительно установить.  Как это сделать написано <a href="https://getcomposer.org/" target="_blank"> тут
+    </a>
+
 
 #3. Настроить доступ к БД в файле config/db.php
 
