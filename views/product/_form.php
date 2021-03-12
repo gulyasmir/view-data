@@ -11,6 +11,8 @@ use yii\widgets\ActiveForm;
 <div class="product-form">
 
     <?php $form = ActiveForm::begin(); ?>
+    
+    <?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'code')->textInput(['maxlength' => true]) ?>
 
@@ -50,7 +52,6 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'usage_product')->textarea(['rows' => 6]) ?>
 
-    <?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
 
     <div class="form-group">
         <?= Html::submitButton('Сохранить', ['class' => 'btn btn-success']) ?>
