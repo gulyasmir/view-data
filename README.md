@@ -18,10 +18,7 @@
 
 #3. Настроить доступ к БД в файле config/db.php
 
-Для показа результатов парсинга нужно указать ту БД, куда заливаются данные в проекте  
-<a href="https://github.com/gulyasmir/parser-xml" target="_blank"> 
-    parser-xml
-</a>
+Для показа результатов парсинга нужно указать ту БД, куда заливаются данные в проекте  <a href="https://github.com/gulyasmir/parser-xml" target="_blank">  parser-xml</a>
 
 
 
