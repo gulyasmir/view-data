@@ -30,6 +30,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'model' => $model,
         'attributes' => [
             'id',
+            'name',
             'code',
             'weight',
             'quantity_msk',
@@ -49,7 +50,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'price_chelyabinsk',
             'price_dl_chelyabinsk',
             'usage_product:ntext',
-            'name',
+            
         ],
     ]) ?>
 
